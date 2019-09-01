@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "args": "^5.0.1",
     "better-sqlite-pool": "^0.2.2",
@@ -12,6 +15,10 @@
     "dotenv": "^8.1.0",
     "enmap": "^5.1.2",
     "inquirer": "^7.0.0",
+    "moment": "^2.24.0",
     "password-hash-and-salt": "^0.1.4"
+  },
+  "devDependencies": {
+    "fs-extra": "^8.1.0"
   }
 }
